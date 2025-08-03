@@ -46,7 +46,7 @@
 
         const sorted = Object.entries(colorMap)
           .sort((a, b) => b[1] - a[1])
-          .slice(0, 20); // 上位20色まで表示
+          .slice(0, 200); // 上位200色まで表示
 
         results.innerHTML = '';
         sorted.forEach(([color, count]) => {
